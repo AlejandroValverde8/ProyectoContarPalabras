@@ -1,5 +1,11 @@
 import java.util.Scanner;
-
+/**
+ * Esta clase es la principal, contiene el método main y va a ser la encargada de coger 
+ * los datos por pantalla y aplicar los métodos de las demás clases sobre los objetos
+ * creados en ella.
+ * @author alejandro
+ * version 1.0
+ */
 public class Inicio_App {
 
 
