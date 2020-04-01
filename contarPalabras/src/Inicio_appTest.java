@@ -20,6 +20,8 @@ public class Inicio_appTest {
 		escribirPantalla pruebaEscribir = new escribirPantalla();
 		assertFalse(pruebaEscribir.textoCaracteresTotal(7) == "Esto es una prueba");
 		
+		assertFalse(pruebaEscribir.textoNumeroPalabras(3) == "Esto es una prueba");
+		
 		
 	}
 }
