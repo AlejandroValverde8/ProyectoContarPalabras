@@ -26,6 +26,11 @@ public class escribirPantalla {
 		return resultadoletras;
 	}
 	
+	/**
+	 * Este método se encarga de escribir el número total de palabras
+	 * @param total
+	 * @return
+	 */
 	String textoNumeroPalabras (int total) {
 		String resultadoPalabras=TEXTO_PALABRAS + palabras + TEXTO_FINAL_PALABRAS;
 		return resultadoPalabras;
