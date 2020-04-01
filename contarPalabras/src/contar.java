@@ -43,7 +43,8 @@ public class contar {
 	}
 	
 	/**
-	 * Este método se encarga de contar las veces que se repite el mismo caracter en la cadena
+	 * Este método se encarga de contar el número de veces que se repite
+	 * un caracter en la cadena
 	 * @param cadena
 	 * @return
 	 */
