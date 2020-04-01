@@ -1,4 +1,9 @@
-
+/**
+ * Esta clase contiene las variables y los métodos necesarios para escribir todos
+ * los resultados.
+ * @author alejandro
+ *
+ */
 public class escribirPantalla {
 	
 	char [] letras;
