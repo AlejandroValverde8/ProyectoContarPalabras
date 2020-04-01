@@ -53,31 +53,6 @@ public class Inicio_App {
 		return contador;
 	}
 	
-	String textoCaracteresTotal (int total){
-		String resultadoletras=TEXTO_TOTAL_CARACTERES_SIN_BLANCOS + numCaracteresSinBlancos + TEXTO_FINAL_TOTAL_CARACTERES_SIN_BLANCOS;
-		return resultadoletras;
-	}
-	
-	String textoNumeroPalabras (int total) {
-		String resultadoPalabras=TEXTO_PALABRAS + palabras + TEXTO_FINAL_PALABRAS;
-		return resultadoPalabras;
-	}
-
-	String textoTodosCaracteres(int [] contador) {
-		String resultados="";
-		System.out.println(TEXTO_LETRAS);
-		for (int i = 0;i<letras.length;i++) { //Recorro el array y muestro todo.
-			if (contador[i]>0 && letras[i] != ' ') {
-				if (contador[i]==1)
-					System.out.println(""+letras[i]+ "-->" + contador[i] + " vez.");
-				else
-					System.out.println(""+letras[i]+ "-->" + contador[i] + " veces.");
-			}
-		    resultados=""+letras[i]+ "-->" + contador[i] + " veces.";
-		   
-		}
-		return resultados;
-	}
 	
 	public static void main(String[] args) {
 		Inicio_App ia = new Inicio_App();
@@ -89,10 +64,10 @@ public class Inicio_App {
 		int palabrasTotal		= ia.contarNumeroPalabras(cadena);
 		int [] todosCaracteres 	= ia.contarTodosCaracteres(cadena);
 		
-		ia.textoCaracteresTotal(caracteresTotal);
+		/*ia.textoCaracteresTotal(caracteresTotal);
 		ia.textoNumeroPalabras(palabrasTotal);
 		ia.textoTodosCaracteres(todosCaracteres);
-		scan.close();
+		scan.close();*/
 		
 	}
 
