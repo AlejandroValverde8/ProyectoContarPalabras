@@ -1,4 +1,9 @@
-
+/**
+ * Esta clase contiene las variables y los métodos necesarios para escribir todos
+ * los resultados.
+ * @author alejandro
+ *
+ */
 public class escribirPantalla {
 	
 	char [] letras;
@@ -9,19 +14,33 @@ public class escribirPantalla {
 	final String TEXTO_FINAL_PALABRAS= " palabras.";
 	final String TEXTO_TOTAL_CARACTERES_SIN_BLANCOS= "Se han introducido un total de ";
 	final String TEXTO_FINAL_TOTAL_CARACTERES_SIN_BLANCOS= " caracteres(sin contar los blancos).";
-	static final String TEXTO_PEDIR_CADENA= "Introduzca un conjunto de caracteres:";
 	
 	
+	/**
+	 * Este método se encarga de escribir el número total de caracteres
+	 * @param total
+	 * @return
+	 */
 	String textoCaracteresTotal (int total){
 		String resultadoletras=TEXTO_TOTAL_CARACTERES_SIN_BLANCOS + numCaracteresSinBlancos + TEXTO_FINAL_TOTAL_CARACTERES_SIN_BLANCOS;
 		return resultadoletras;
 	}
 	
+	/**
+	 * Este método se encarga de escribir el número total de palabras
+	 * @param total
+	 * @return
+	 */
 	String textoNumeroPalabras (int total) {
 		String resultadoPalabras=TEXTO_PALABRAS + palabras + TEXTO_FINAL_PALABRAS;
 		return resultadoPalabras;
 	}
 
+	/**
+	 * Este método se encarga de contar las veces que se repite un caracter distinto
+	 * @param contador
+	 * @return
+	 */
 	String textoTodosCaracteres(int [] contador) {
 		String resultados="";
 		System.out.println(TEXTO_LETRAS);
