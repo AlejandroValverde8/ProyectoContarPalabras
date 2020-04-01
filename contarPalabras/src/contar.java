@@ -10,11 +10,11 @@ public class contar {
 	int numCaracteresSinBlancos = 0;
 	/**
 	 * Este método se encarga de obtener el número de caracteres que tiene
-	 *  el string que le pasamos por parámetro.
+	 * el string que le pasamos por parámetro.
 	 * @param cadena
 	 * @return
 	 */
- int contarCaracteresTotal(String cadena) {
+	int contarCaracteresTotal(String cadena) {
 		int contadorCaracteres=0;
 		for (int i = 0;i<cadena.length();i++){ 
 			char car = cadena.charAt(i);
@@ -23,6 +23,12 @@ public class contar {
 		return contadorCaracteres;
 	}
 	
+	/**
+	 * Este método se encarga de obtener el número de palabras del string que 
+	 * le pasamos por parámetro
+	 * @param cadena
+	 * @return
+	 */
 	int contarNumeroPalabras(String cadena) {
 		char car2=' ';
 		for (int i=0;i<cadena.length();i++) {
