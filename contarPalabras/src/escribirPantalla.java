@@ -16,7 +16,11 @@ public class escribirPantalla {
 	final String TEXTO_FINAL_TOTAL_CARACTERES_SIN_BLANCOS= " caracteres(sin contar los blancos).";
 	
 	
-	
+	/**
+	 * Este método se encarga de escribir el número total de caracteres
+	 * @param total
+	 * @return
+	 */
 	String textoCaracteresTotal (int total){
 		String resultadoletras=TEXTO_TOTAL_CARACTERES_SIN_BLANCOS + numCaracteresSinBlancos + TEXTO_FINAL_TOTAL_CARACTERES_SIN_BLANCOS;
 		return resultadoletras;
