@@ -11,5 +11,7 @@ public class Inicio_appTest {
 		
 		contar pruebaContar = new contar();
 		assertTrue(pruebaContar.contarCaracteresTotal("palabra") == 7);
+		
+		assertTrue(pruebaContar.contarNumeroPalabras("esto es una cadena") == 4);
 	}
 }
