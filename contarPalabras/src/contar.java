@@ -8,7 +8,12 @@ public class contar {
 	char [] letras;
 	int palabras;
 	int numCaracteresSinBlancos = 0;
-	
+	/**
+	 * Este método se encarga de obtener el número de caracteres que tiene
+	 *  el string que le pasamos por parámetro.
+	 * @param cadena
+	 * @return
+	 */
  int contarCaracteresTotal(String cadena) {
 		int contadorCaracteres=0;
 		for (int i = 0;i<cadena.length();i++){ 
