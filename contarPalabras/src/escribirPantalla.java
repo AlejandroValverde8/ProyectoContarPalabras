@@ -36,6 +36,11 @@ public class escribirPantalla {
 		return resultadoPalabras;
 	}
 
+	/**
+	 * Este método se encarga de contar las veces que se repite un caracter distinto
+	 * @param contador
+	 * @return
+	 */
 	String textoTodosCaracteres(int [] contador) {
 		String resultados="";
 		System.out.println(TEXTO_LETRAS);
