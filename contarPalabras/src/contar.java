@@ -42,6 +42,12 @@ public class contar {
 		return palabras;
 	}
 	
+	/**
+	 * Este método se encarga de contar las veces que se repite el mismo caracter en la cadena
+	 * @param cadena
+	 * @return
+	 */
+	
 	int [] contarTodosCaracteres(String cadena) {
 		int [] contador = new int[65536];
 		for (int i=0;i<cadena.length();i++) {
