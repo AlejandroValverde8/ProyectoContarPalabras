@@ -1,4 +1,9 @@
-
+/**
+ * Esta clase llamada contar va a contener los métodos relacionados con 
+ * contar numero de letras, palabras y veces que se repite una letra.
+ * @author alejandro
+ * version 1.0
+ */
 public class contar {
 	char [] letras;
 	int palabras;

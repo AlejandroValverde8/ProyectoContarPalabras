@@ -19,7 +19,7 @@ public class Inicio_App {
 		Scanner scan = new Scanner(System.in);
 		System.out.println(TEXTO_PEDIR_CADENA);
 		String cadena = scan.nextLine();
-		
+	
 		int caracteresTotal 	= c.contarCaracteresTotal(cadena);
 		int palabrasTotal		= c.contarNumeroPalabras(cadena);
 		int [] todosCaracteres 	= c.contarTodosCaracteres(cadena);
